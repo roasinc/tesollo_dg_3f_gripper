@@ -1,0 +1,4 @@
+int16 set_data
+---
+bool result
+string message

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="dg_3f_gripper">
+    <xacro:include filename="$(find delto_3f_description)/urdf/delto_3f.urdf.xacro"/>
+
+    <link name="world" />
+
+    <xacro:insert_gripper prefix="" parent="world">
+        <origin xyz="0 0 0.15" rpy="0 0 0" />
+    </xacro:insert_gripper>
+</robot>
